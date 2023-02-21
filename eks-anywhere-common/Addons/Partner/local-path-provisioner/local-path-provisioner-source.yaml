@@ -1,0 +1,9 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: HelmRepository
+metadata:
+  name: local-path-provisioner-charts
+  namespace: flux-system
+spec:
+  interval: 30s
+  url: https://github.com/rancher/local-path-provisioner/tree/master/deploy/chart/local-path-provisioner
