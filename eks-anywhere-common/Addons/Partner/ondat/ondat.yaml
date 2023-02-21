@@ -13,7 +13,7 @@ spec:
         kind: HelmRepository
         name: ondat-charts
         namespace: flux-system
-      version: 2.9.1
+      version: 0.2.7
   interval: 1m0s
   targetNamespace: storageos
   values:
