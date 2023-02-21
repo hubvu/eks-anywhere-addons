@@ -1,0 +1,9 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: HelmRepository
+metadata:
+  name: ondat-charts
+  namespace: storageos
+spec:
+  interval: 30s
+  url: https://ondat.github.io/charts/
